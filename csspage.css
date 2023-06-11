@@ -40,6 +40,8 @@ li{list-style: none;}
     position: relative;
 }
 
+
+
 .header:before{
     content: "";
     position: absolute;
@@ -113,24 +115,30 @@ li{list-style: none;}
 /****************extra header div css start*****************/
 
 
-.header-extradiv{
-    margin-block-end: 1px;
+.header-extradiv {
+    color: #fff;
     width: 100%;
     height: auto;
     margin: 100px 0;
     text-align: center;
 }
 
-.extra-div{
-    
-    background: #ffffff;
-    border: medium none;
-    padding: 50px 0px!important;
-    border-radius: 3px;
-    transition: 0.3s;
+.header-extradiv i{
+    color: #fff;
 }
 
-.extra-div:hover{
+
+.extra-div {
+    background: #050FAD;
+    margin-top: -0.25rem !important;
+    border: none;
+    padding: 50px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 20px; /* Adjust this value to increase or decrease the gap */
+}
+
+.extra-div:hover {
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     transform: translateY(-20px);
 }
@@ -232,7 +240,7 @@ li{list-style: none;}
 .card-header{
     font-size: 1.6rem;
     font-weight: bold;
-    background: white!important;
+    background: rgb(255, 255, 255)!important;
     padding: 25px 9!important;
 }
 
@@ -539,3 +547,5 @@ form:hover .form-buttom button{
 
 
 /*********** media query ends****************/
+
+
