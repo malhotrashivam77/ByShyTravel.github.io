@@ -30,7 +30,7 @@
                         <i class="fa-solid fa-person-military-rifle"></i>
                         <input type="password" placeholder="password">
                     </div>
-                    <p>Lost password <a href="#">Click Here</a></p>
+                    <p id="forgotPassword">Forgot password <a href="#">Click Here</a></p>
                 </div>
                 <div class="btn-field">
                     <button type="button" id="SignupBtn">
@@ -45,23 +45,26 @@
     </div>
 
     <script>
-        let SignupBtn= document.getElementById("SignupBtn");
-        let signinBtn= document.getElementById("signinBtn");
-        let nameField= document.getElementById("nameField");
-        let title= document.getElementById("title");
+        let SignupBtn = document.getElementById("SignupBtn");
+        let signinBtn = document.getElementById("signinBtn");
+        let nameField = document.getElementById("nameField");
+        let title = document.getElementById("title");
+        let forgotPassword = document.getElementById("forgotPassword");
 
         signinBtn.onclick = function(){
-            nameField.style.maxHeight="0";
-            title.innerHTML="Sign In"
+            nameField.style.maxHeight = "0";
+            title.innerHTML = "Sign In";
             SignupBtn.classList.add("disable");
             signinBtn.classList.remove("disable");
+            forgotPassword.style.display = "block";
         }
 
         SignupBtn.onclick = function(){
-            nameField.style.maxHeight="60px";
-            title.innerHTML="Sign Up"
+            nameField.style.maxHeight = "60px";
+            title.innerHTML = "Sign Up";
             SignupBtn.classList.remove("disable");
-            SignupBtn.classList.add("disable");
+            signinBtn.classList.add("disable");
+            forgotPassword.style.display = "none";
         }
     </script>
 
