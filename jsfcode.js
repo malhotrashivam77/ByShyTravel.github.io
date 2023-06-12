@@ -3,6 +3,8 @@
         time:1000
       })
 
+      
+
       mybutton = document.getElementById("myBtn");
       window.onscroll=function() {scrollFunction()};
 
