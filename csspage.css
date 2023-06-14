@@ -51,7 +51,7 @@ li{list-style: none;}
     right: 0;
     opacity: 0.1;
     z-index: -1;
-    background: linear-gradient(to right, #050FAD 0%, #050FAD 0%);
+    background: linear-gradient(to right, #5cad05 0%, #5cad05 0%);
 }
 
 .navbar:before{
@@ -63,7 +63,7 @@ li{list-style: none;}
     right: 0;
     
     z-index: -1;
-    background: linear-gradient(to right, #050FAD 0%, #050FAD 0%);
+    background: linear-gradient(to right, #5cad05 0%, #5cad05 0%);
 }
 
 .nav-item a{
@@ -103,9 +103,9 @@ li{list-style: none;}
 }
 
 .header-buttons a:hover{
-    border: #050FAD;
+    border: #5cad05;
     color: #ffffff;
-    background: #050FAD;
+    background: #5cad05;
     text-decoration: none;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
@@ -154,7 +154,7 @@ li{list-style: none;}
 
 .serviceoffer{
     color: #fff;
-    background: #050FAD;
+    background: #5cad05;
     padding: 50px 0;
     margin-bottom: 50px;
 }
@@ -222,7 +222,7 @@ li{list-style: none;}
     left: 0;
     right: 0;
     z-index: -1;
-    background: linear-gradient(160deg, #050FAD 50%, #fff 0%);
+    background: linear-gradient(160deg, #5cad05 50%, #fff 0%);
 }
 
 .pricing h1{
@@ -266,12 +266,12 @@ li{list-style: none;}
 }
 
 .card-footer a{
-    border: 1px solid #050FAD;
+    border: 1px solid #5cad05;
     border-radius: 100px;
     margin: 0 5px;
     padding: 12px 35px;
     outline: none;
-    color: #050FAD;
+    color: #5cad05;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -280,7 +280,7 @@ li{list-style: none;}
 
 .card:hover .card-footer a{
     color: #ffffff;
-    background: #050FAD;
+    background: #5cad05;
     text-decoration: none;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
@@ -292,7 +292,7 @@ li{list-style: none;}
 
 .card:hover .card-header, .card:hover .money{
 
-    color: #050FAD;
+    color: #5cad05;
 }
 
 .card-second{
@@ -320,7 +320,7 @@ li{list-style: none;}
 }
 
 .box:hover{
-    background:#050FAD;
+    background:#5cad05;
 }
 
 .box:hover p, .box:hover h1, .box:hover h2{
@@ -334,7 +334,7 @@ li{list-style: none;}
 }
 
 .carousel-indicators li{
-    background-color: #050FAD!important;
+    background-color: #5cad05!important;
 }
 
 .box a{
@@ -355,7 +355,7 @@ li{list-style: none;}
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: linear-gradient(to right, #1e5799 0%, #050FAD 0%, #050FAD 100%);
+    background: linear-gradient(to right, #1e9941 0%, #5cad05 0%, #5cad05 100%);
     color: white ;
     position: absolute;
     top: 120%;
@@ -401,17 +401,17 @@ li{list-style: none;}
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(330deg, #050FAD 55%, #fff 0%);
+    background: linear-gradient(330deg, #5cad05 55%, #fff 0%);
     z-index: -1;
 }
 
 .form-buttom button{
-    border: 1px solid #050FAD;
+    border: 1px solid #5cad05;
     border-radius: 100px;
     margin: 0 5px;
     padding: 12px 35px;
     outline: none;
-    color: #050FAD;
+    color: #5cad05;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -420,12 +420,12 @@ li{list-style: none;}
 }
 
 form:hover .form-buttom button{
-    color: #050FAD;
+    color: #5cad05;
 }
 
 form:hover .form-buttom button{
     background: #fff;
-    color: #050FAD;
+    color: #5cad05;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
@@ -453,7 +453,7 @@ form:hover .form-buttom button{
 
 .input-group-text{
     color: #fff!important;
-    background: #050FAD!important;
+    background: #5cad05!important;
     border-radius: 0 100px 100px 0!important;
     min-width: 120px;
     min-height: 45px;
@@ -469,7 +469,7 @@ form:hover .form-buttom button{
     width: 100%;
     height: auto;
     padding: 70px 0 20px 0;
-    background: #050FAD;
+    background: #5cad05;
     position: relative;
 }
 
@@ -503,13 +503,13 @@ form:hover .form-buttom button{
     z-index: 99;
     border: none;
     color: #fff;
-    background: #050FAD;
+    background: #5cad05;
     padding: 10px;
     border-radius: 10px;
 }
 
 #myBtn:hover{
-    background: #2e2ecb;
+    background: #5cad05;
 }
 
 
