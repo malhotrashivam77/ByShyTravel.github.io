@@ -61,7 +61,6 @@ li{list-style: none;}
     bottom: 0%;
     left: 0;
     right: 0;
-    
     z-index: -1;
     background: linear-gradient(to right, #5cad05 0%, #5cad05 0%);
 }
@@ -128,19 +127,13 @@ li{list-style: none;}
     gap: 24px;
 }
 
-.box-extradiv{
-    margin: 10px;
-}
 
 .extra-div {
     border: 1px solid #ffffff;
-    margin: auto;
     background: #5cad05;
-    border: 10;
     padding: 50px 0;
     border-radius: 10px;
     transition: 0.3s;
-    
 }
 
 .extra-div:hover {
