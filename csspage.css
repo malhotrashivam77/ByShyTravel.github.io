@@ -125,17 +125,22 @@ li{list-style: none;}
 
 .header-extradiv i{
     color: #fff;
+    gap: 24px;
 }
 
+.box-extradiv{
+    margin: 10px;
+}
 
 .extra-div {
-    background: #050FAD;
-    margin-top: -0.25rem !important;
-    border: none;
+    border: 1px solid #ffffff;
+    margin: auto;
+    background: #5cad05;
+    border: 10;
     padding: 50px 0;
     border-radius: 10px;
     transition: 0.3s;
-    margin-bottom: 20px; /* Adjust this value to increase or decrease the gap */
+    
 }
 
 .extra-div:hover {
