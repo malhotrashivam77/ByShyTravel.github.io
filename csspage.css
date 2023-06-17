@@ -30,15 +30,15 @@ li{list-style: none;}
 
 /*********actual css start***********/
 
-.header{ 
-    width: 100%;
-    height: 80vh;
-    background-image: url('images/mountain.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    clip-path: fill-box;
-    position: relative;
-}
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: url('images/flight.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
 
 
 
