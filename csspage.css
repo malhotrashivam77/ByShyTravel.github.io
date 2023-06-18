@@ -348,7 +348,7 @@ li{list-style: none;}
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: linear-gradient(to right, #1e9941 0%, #5cad05 0%, #5cad05 100%);
+    background: linear-gradient(to right, navy 0%, navy 0%, navy 100%);
     color: white ;
     position: absolute;
     top: 120%;
@@ -394,12 +394,12 @@ li{list-style: none;}
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(330deg, #5cad05 55%, #fff 0%);
+    background: linear-gradient(330deg, navy 55%, #fff 0%);
     z-index: -1;
 }
 
 .form-buttom button{
-    border: 1px solid #5cad05;
+    border: 1px solid navy;
     border-radius: 100px;
     margin: 0 5px;
     padding: 12px 35px;
