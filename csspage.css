@@ -51,7 +51,7 @@ li{list-style: none;}
     right: 0;
     opacity: 0.1;
     z-index: -1;
-    background: linear-gradient(to right, #5cad05 0%, #5cad05 0%);
+    background: linear-gradient(to right, navy 0%, navy 0%);
 }
 
 .navbar:before{
@@ -62,7 +62,7 @@ li{list-style: none;}
     left: 0;
     right: 0;
     z-index: -1;
-    background: linear-gradient(to right, #5cad05 0%, #5cad05 0%);
+    background: linear-gradient(to right, navy 0%, navy 0%);
 }
 
 .nav-item a{
@@ -102,9 +102,9 @@ li{list-style: none;}
 }
 
 .header-buttons a:hover{
-    border: #5cad05;
+    border: navy;
     color: #ffffff;
-    background: #5cad05;
+    background: navy;
     text-decoration: none;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
@@ -130,7 +130,7 @@ li{list-style: none;}
 
 .extra-div {
     border: 1px solid #ffffff;
-    background: #5cad05;
+    background: navy;
     padding: 50px 0;
     border-radius: 10px;
     transition: 0.3s;
@@ -147,7 +147,7 @@ li{list-style: none;}
 
 .serviceoffer{
     color: #fff;
-    background: #5cad05;
+    background: navy;
     padding: 50px 0;
     margin-bottom: 50px;
 }
@@ -215,7 +215,7 @@ li{list-style: none;}
     left: 0;
     right: 0;
     z-index: -1;
-    background: linear-gradient(160deg, #5cad05 50%, #fff 0%);
+    background: linear-gradient(160deg, navy 50%, #fff 0%);
 }
 
 .pricing h1{
@@ -259,12 +259,12 @@ li{list-style: none;}
 }
 
 .card-footer a{
-    border: 1px solid #5cad05;
+    border: 1px solid navy;
     border-radius: 100px;
     margin: 0 5px;
     padding: 12px 35px;
     outline: none;
-    color: #5cad05;
+    color: navy;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -273,7 +273,7 @@ li{list-style: none;}
 
 .card:hover .card-footer a{
     color: #ffffff;
-    background: #5cad05;
+    background: navy;
     text-decoration: none;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
@@ -285,7 +285,7 @@ li{list-style: none;}
 
 .card:hover .card-header, .card:hover .money{
 
-    color: #5cad05;
+    color: navy;
 }
 
 .card-second{
@@ -313,7 +313,7 @@ li{list-style: none;}
 }
 
 .box:hover{
-    background:#5cad05;
+    background:navy;
 }
 
 .box:hover p, .box:hover h1, .box:hover h2{
@@ -327,7 +327,7 @@ li{list-style: none;}
 }
 
 .carousel-indicators li{
-    background-color: #5cad05!important;
+    background-color: #42d1e4!important;
 }
 
 .box a{
@@ -404,7 +404,7 @@ li{list-style: none;}
     margin: 0 5px;
     padding: 12px 35px;
     outline: none;
-    color: #5cad05;
+    color: navy;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -413,12 +413,12 @@ li{list-style: none;}
 }
 
 form:hover .form-buttom button{
-    color: #5cad05;
+    color: navy;
 }
 
 form:hover .form-buttom button{
     background: #fff;
-    color: #5cad05;
+    color: navy;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
@@ -446,7 +446,7 @@ form:hover .form-buttom button{
 
 .input-group-text{
     color: #fff!important;
-    background: #5cad05!important;
+    background: navy!important;
     border-radius: 0 100px 100px 0!important;
     min-width: 120px;
     min-height: 45px;
@@ -462,7 +462,7 @@ form:hover .form-buttom button{
     width: 100%;
     height: auto;
     padding: 70px 0 20px 0;
-    background: #5cad05;
+    background: navy;
     position: relative;
 }
 
@@ -496,13 +496,13 @@ form:hover .form-buttom button{
     z-index: 99;
     border: none;
     color: #fff;
-    background: #5cad05;
+    background: navy;
     padding: 10px;
     border-radius: 10px;
 }
 
 #myBtn:hover{
-    background: #5cad05;
+    background: navy;
 }
 
 
