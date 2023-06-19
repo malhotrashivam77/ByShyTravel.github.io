@@ -25,7 +25,7 @@
 }
 
 .close-button:hover {
-    background-color: #5cad05;
+    background-color: navy;
     color: #fff;
 }
 
@@ -59,7 +59,7 @@
 .form-boxx h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color: #5cad05;
+    color: navy;
     position: relative;
 }
 
