@@ -18,6 +18,7 @@ li{list-style: none;}
 
 
 
+
 .extra-div h2, .servicediv h2{
     font-size: 1.5rem;
     margin: 20px 0 15px 0;
@@ -200,6 +201,7 @@ li{list-style: none;}
     margin: bottom 25px!important;
 }
   
+
 /*********** Service offers css ends****************/
 
 /*********** awards css start****************/
@@ -443,6 +445,13 @@ form:hover .form-buttom button{
     font-size: 0.85rem;
 }
 
+#msg{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    display: block;
+}
+
 
 /*********** contact us ends****************/
 
@@ -575,5 +584,3 @@ form:hover .form-buttom button{
 
 
 /*********** media query ends****************/
-
-

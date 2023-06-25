@@ -486,30 +486,26 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
-          
-          <form action="send_email.php" method="post">
+          <form name="submit-to-google-sheet">
             <div class="form-group">
-              <input type="text" class="form-control" id="username" required autocomplete="off" placeholder="Enter Your Name">
+              <input type="text" name="Username" class="form-control" id="username" required autocomplete="off" placeholder="Enter Your Name">
             </div>
-
-            <form action="/action_page.php">
               <div class="form-group">
-                <input type="email" class="form-control" id="email" placeholder="Enter Your Email-id">
+                <input type="email" name="Email" class="form-control" id="email" placeholder="Enter Your Email-id">
               </div>
 
-              <form action="/action_page.php">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="mobile" placeholder="Enter Your mobile number">
+                  <input type="text" name="Mobile" class="form-control" id="mobile" placeholder="Enter Your mobile number">
                 </div>
 
                 <div class="form-group">
-                  <textarea class="form-control" rows="4" id="comment" placeholder="Enter Your Message"></textarea>
+                  <textarea class="form-control" name="Message" rows="4" id="comment" placeholder="Enter Your Message"></textarea>
             
               <div class="d-flex justify-content-center form-buttom">
             <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </form>
-
+          <span id="msg"></span>
         </div>
       </div>
 
